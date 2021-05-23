@@ -1,0 +1,140 @@
+/****************  Fonts style ******************/
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "SFProDisplay-Light-1";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Light-1.ttf") format("truetype"); }
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Semibold.ttf") format("truetype"); }
+.font-sf-pro-display-bold {
+  font-family: "SFProDisplay-Bold", sans-serif; }
+
+.font-sf-pro-display-regular {
+  font-family: "SFProDisplay-Regular", sans-serif; }
+
+.font-sf-pro-display-light {
+  font-family: "SFProDisplay-Light-1", sans-serif; }
+
+.font-sf-pro-display-semibold {
+  font-family: "SFProDisplay-Semibold", sans-serif; }
+
+.Boynazar .line {
+  height: 1px;
+  background-color: #EAEAEA;
+  margin-top: 20px; }
+.Boynazar nav {
+  padding: 20px 0; }
+  .Boynazar nav a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #2F2F2F; }
+    .Boynazar nav a:hover {
+      color: #000000; }
+  .Boynazar nav .courses {
+    width: 124px;
+    height: 44px;
+    border: 1px solid #E6E6E6;
+    filter: drop-shadow(0px 11px 14px rgba(0, 0, 0, 0.0339543));
+    margin-left: 65px;
+    transition: all 0.2s linear; }
+    .Boynazar nav .courses:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 4px #003846; }
+  .Boynazar nav .rasm-kirish {
+    transition: all 0.5s linear; }
+    .Boynazar nav .rasm-kirish:hover {
+      transform: translateX(10px) rotate(360deg); }
+  @media (max-width: 369px) {
+    .Boynazar nav .btntwo {
+      margin-left: 130px;
+      margin-top: 30px; } }
+.Boynazar .box {
+  background: #63C19C; }
+  .Boynazar .box:hover {
+    background-color: #37a98e;
+    box-shadow: 0 0 4px #003846; }
+.Boynazar .inputone {
+  background: #F8F8FA;
+  padding: 5px 0 5px 40px;
+  height: 35px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid white; }
+  .Boynazar .inputone:hover {
+    background-color: #d2d2d2; }
+.Boynazar .two {
+  background: #F8F8FA;
+  padding: 10px 0 0 10px; }
+  .Boynazar .two a {
+    margin-left: 30px;
+    color: #acacac;
+    text-decoration: none;
+    padding-bottom: 10px; }
+    .Boynazar .two a:hover {
+      color: black; }
+  .Boynazar .two .active:hover {
+    border-bottom: 2px solid #000000; }
+.Boynazar .leftone {
+  border-left: 5px solid #2f2b94; }
+.Boynazar .lefttwo {
+  border-left: 5px solid #63C19C; }
+.Boynazar .leftthree {
+  border-left: 5px solid #e79b00; }
+.Boynazar .rod {
+  flex-wrap: wrap; }
+  @media (max-width: 722px) and (min-width: 0) {
+    .Boynazar .rod {
+      text-align: center;
+      margin-top: 10px;
+      justify-content: center; } }
+@media (max-width: 772px) {
+  .Boynazar .sheet {
+    text-align: center;
+    justify-content: center; } }
+
+.imgrod {
+  width: 100%; }
+  @media (max-width: 992px) and (min-width: 0) {
+    .imgrod {
+      width: 100%;
+      margin-top: 30px;
+      text-align: center; } }
+
+.foo {
+  width: 40%; }
+  @media (max-width: 992px) {
+    .foo {
+      width: 100%; } }
+
+.collapsed .triangle1 {
+  transform: rotate(0); }
+
+.triangle1 {
+  transform: rotate(180deg); }
+
+.Boynazartwo {
+  background-color: #F8F8FA;
+  margin-top: 30px; }
+  .Boynazartwo h4 {
+    font-size: 14px;
+    line-height: 33px;
+    color: #000000; }
+  .Boynazartwo a {
+    font-size: 12px;
+    line-height: 34px;
+    color: #6C6C6C; }
+  .Boynazartwo h1 {
+    font-size: 25px;
+    line-height: 33px;
+    color: black; }
+  .Boynazartwo p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C; }
+
+/*# sourceMappingURL=main.css.map */

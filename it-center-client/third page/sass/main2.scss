@@ -1,0 +1,218 @@
+/****************  Fonts style ******************/
+
+
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Light-1";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Light-1.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SFProDisplay-Semibold";
+  src: url("../assets/fonts/SF Pro Display/SFProDisplay-Semibold.ttf") format("truetype");
+}
+
+.font-sf-pro-display-bold {
+  font-family: "SFProDisplay-Bold", sans-serif;
+}
+
+.font-sf-pro-display-regular {
+  font-family: "SFProDisplay-Regular", sans-serif;
+}
+
+.font-sf-pro-display-light {
+  font-family: "SFProDisplay-Light-1", sans-serif;
+}
+
+.font-sf-pro-display-semibold {
+  font-family: "SFProDisplay-Semibold", sans-serif;
+}
+
+
+
+.Boynazar {
+  .line {
+    height: 1px;
+    background-color: #EAEAEA;
+    margin-top: 20px;
+  }
+
+  nav {
+    padding: 20px 0;
+
+    a {
+      font-size: 16px;
+      line-height: 19px;
+      color: #2F2F2F;
+      &:hover {
+        color: #000000;
+      }
+    }
+
+    .courses {
+      width: 124px;
+      height: 44px;
+      border: 1px solid #E6E6E6;
+      filter: drop-shadow(0px 11px 14px rgba(0, 0, 0, 0.0339543));
+      margin-left: 65px;
+      transition: all 0.2s linear;
+      &:hover{
+        transform: scale(1.1);
+        box-shadow: 0 0 4px #003846;
+      }
+
+    }
+    .rasm-kirish{
+      transition: all 0.5s linear;
+      &:hover{
+        transform: translateX(10px) rotate(360deg);
+      }
+    }
+    .btntwo{
+      @media (max-width: 369px) {
+          margin-left: 130px;
+          margin-top: 30px;
+      }
+    }
+
+  }
+
+
+  .box {
+    background: #63C19C;
+
+    &:hover {
+      background-color: #37a98e;
+      box-shadow: 0 0 4px #003846;
+    }
+  }
+
+  .inputone {
+    background: #F8F8FA;
+    padding: 5px 0 5px 40px;
+    height: 35px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-bottom: 1px solid white;
+    &:hover {
+      background-color: #d2d2d2;
+    }
+  }
+
+  .two {
+    background: #F8F8FA;
+    padding: 10px 0 0 10px;
+
+    a {
+      margin-left: 30px;
+      color: #acacac;
+      text-decoration: none;
+      padding-bottom: 10px;
+
+      &:hover {
+        color: black;
+      }
+    }
+
+    .active:hover {
+      border-bottom: 2px solid #000000;
+    }
+  }
+
+  .leftone {
+    border-left: 5px solid #2f2b94;
+  }
+
+  .lefttwo {
+    border-left: 5px solid #63C19C;
+  }
+
+  .leftthree {
+    border-left: 5px solid #e79b00;
+  }
+
+  .rod {
+    flex-wrap: wrap;
+    @media(max-width: 722px) and (min-width: 0) {
+      & {
+        text-align: center;
+        margin-top: 10px;
+        justify-content: center;
+      }
+    }
+
+  }
+
+  .sheet {
+    @media (max-width: 772px) {
+      & {
+        text-align: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.imgrod {
+  width: 100%;
+  @media (max-width: 992px) and (min-width: 0) {
+    & {
+      width: 100%;
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
+}
+
+.foo {
+  width: 40%;
+  @media(max-width: 992px) {
+    width: 100%;
+  }
+}
+
+.collapsed .triangle1 {
+  transform: rotate(0);
+}
+
+.triangle1 {
+  transform: rotate(180deg);
+}
+
+.Boynazartwo {
+  background-color: #F8F8FA;
+  margin-top: 30px;
+
+  h4 {
+    font-size: 14px;
+    line-height: 33px;
+    color: #000000;
+  }
+
+  a {
+    font-size: 12px;
+    line-height: 34px;
+    color: #6C6C6C;
+  }
+
+  h1 {
+    font-size: 25px;
+    line-height: 33px;
+    color: black;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+  }
+}
